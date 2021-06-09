@@ -1,4 +1,4 @@
-package cn.fanrunqi.materiallogin.a;
+package cn.fanrunqi.materiallogin;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -12,9 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import cn.fanrunqi.materiallogin.R;
-
-public class AActivityOne extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     private EditText etUsername;
     private EditText etPassword;
@@ -25,7 +23,7 @@ public class AActivityOne extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a_activity_one);
+        setContentView(R.layout.login_activity);
         initView();
         setListener();
     }
@@ -47,8 +45,8 @@ public class AActivityOne extends AppCompatActivity {
 
                 getWindow().setExitTransition(explode);
                 getWindow().setEnterTransition(explode);
-                ActivityOptionsCompat oc2 = ActivityOptionsCompat.makeSceneTransitionAnimation(AActivityOne.this);
-                Intent i2 = new Intent(AActivityOne.this,AActivityThree.class);
+                ActivityOptionsCompat oc2 = ActivityOptionsCompat.makeSceneTransitionAnimation(LoginActivity.this);
+                Intent i2 = new Intent(LoginActivity.this, OverviewFragment.class);
                 startActivity(i2, oc2.toBundle());
             }
         });
@@ -57,8 +55,8 @@ public class AActivityOne extends AppCompatActivity {
             public void onClick(View view) {
                 getWindow().setExitTransition(null);
                 getWindow().setEnterTransition(null);
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(AActivityOne.this, fab, fab.getTransitionName());
-                startActivity(new Intent(AActivityOne.this, AActivityTwo.class), options.toBundle());
+                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(LoginActivity.this, fab, fab.getTransitionName());
+                startActivity(new Intent(LoginActivity.this, RegActivity.class), options.toBundle());
             }
         });
     }

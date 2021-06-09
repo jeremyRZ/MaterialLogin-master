@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MaterialLogin-master.iml" filepath="$PROJECT_DIR$/.idea/MaterialLogin-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ParticleView/MaterialLogin-master.ParticleView.iml" filepath="$PROJECT_DIR$/.idea/modules/ParticleView/MaterialLogin-master.ParticleView.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MaterialLogin-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MaterialLogin-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bottom-nav-bar/MaterialLogin-master.bottom-nav-bar.iml" filepath="$PROJECT_DIR$/.idea/modules/bottom-nav-bar/MaterialLogin-master.bottom-nav-bar.iml" />
     </modules>
   </component>
 </project>
