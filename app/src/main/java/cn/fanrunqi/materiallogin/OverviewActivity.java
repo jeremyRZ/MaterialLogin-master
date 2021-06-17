@@ -10,7 +10,7 @@ import java.util.List;
 import me.riddhimanadib.library.BottomBarHolderActivity;
 import me.riddhimanadib.library.NavigationPage;
 
-public class OverviewFragment extends BottomBarHolderActivity implements FirstFragment.OnFragmentInteractionListener, SecondFragment.OnFragmentInteractionListener {
+public class OverviewActivity extends BottomBarHolderActivity implements FirstFragment.OnFragmentInteractionListener, SecondFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
