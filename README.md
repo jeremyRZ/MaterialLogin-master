@@ -1,12 +1,16 @@
-# MaterialLogin
+# eInStar
 
+Useful Link
 
-The Animation effect：
+https://github.com/XXApple/AndroidLibs
 
-<img src="https://raw.githubusercontent.com/fanrunqi/MaterialLogin/master/screenshots/a.gif" width = "270" height = "540"  />
+https://github.com/XXApple/AndroidLibs/tree/master/%E5%B8%83%E5%B1%80Layout
 
+https://github.com/yarolegovich/MaterialPreferences
 
-> You can download the source code. Problems can give me a message, thank you!
+https://zhuanlan.zhihu.com/p/68671278
+
+https://www.jianshu.com/p/1c9a09637ef3
 
 # License
 > Copyright 2016 fanrunqi
